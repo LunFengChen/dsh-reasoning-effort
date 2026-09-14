@@ -1,5 +1,5 @@
 {
-  "name": "dsh-reasoning-effort",
+  "name": "@x1a0f3n9/dsh-reasoning-effort",
   "version": "0.7.1",
   "description": "Codex-style DeepSeek Harness model and reasoning selector with model-advertised effort levels, DSH-native themes, left-clipped radiation effects, and copy-ready reasoning-effort declaration guidance for custom-provider models.",
   "keywords": [
@@ -17,11 +17,11 @@
   "author": "HanaAyane",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HanaAyane/dsh-reasoning-effort.git"
+    "url": "git+https://github.com/LunFengChen/dsh-reasoning-effort.git"
   },
-  "homepage": "https://github.com/HanaAyane/dsh-reasoning-effort#readme",
+  "homepage": "https://github.com/LunFengChen/dsh-reasoning-effort#readme",
   "bugs": {
-    "url": "https://github.com/HanaAyane/dsh-reasoning-effort/issues"
+    "url": "https://github.com/LunFengChen/dsh-reasoning-effort/issues"
   },
   "engines": {
     "node": ">=22.19"

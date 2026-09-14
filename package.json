@@ -68,9 +68,9 @@
   "dsh": {
     "plugin": {
       "title": "Reasoning effort",
-      "titleZh": "思考强度",
+      "titleZh": "\u601d\u8003\u5f3a\u5ea6",
       "description": "Pick thinking strength in the composer.",
-      "descriptionZh": "在输入框选择思考强度。"
+      "descriptionZh": "\u5728\u8f93\u5165\u6846\u9009\u62e9\u601d\u8003\u5f3a\u5ea6\u3002"
     },
     "bundle": {
       "patch": "./cordis.patch.yml"
@@ -119,5 +119,9 @@
     "@deepseek-ai/dsh-client-ui-slots": "^0.1.0-rc.6",
     "@deepseek-ai/dsh-api-remotes": "^0.1.0-rc.6"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }

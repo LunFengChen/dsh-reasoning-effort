@@ -66,6 +66,12 @@
     "check": "pnpm run typecheck && pnpm run check:i18n && pnpm run build"
   },
   "dsh": {
+    "plugin": {
+      "title": "Reasoning effort",
+      "titleZh": "思考强度",
+      "description": "Pick thinking strength in the composer.",
+      "descriptionZh": "在输入框选择思考强度。"
+    },
     "bundle": {
       "patch": "./cordis.patch.yml"
     },

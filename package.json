@@ -1,6 +1,6 @@
 {
-  "name": "dsh-reasoning-effort",
-  "version": "0.7.2",
+  "name": "@x1a0f3n9/dsh-reasoning-effort",
+  "version": "0.7.3",
   "description": "Codex-style DeepSeek Harness model and reasoning selector with model-advertised effort levels, DSH-native themes, left-clipped radiation effects, and copy-ready reasoning-effort declaration guidance for custom-provider models.",
   "keywords": [
     "deepseek",
@@ -14,14 +14,14 @@
     "ui",
     "cordis"
   ],
-  "author": "HanaAyane",
+  "author": "LunFengChen",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HanaAyane/dsh-reasoning-effort.git"
+    "url": "git+https://github.com/LunFengChen/dsh-reasoning-effort.git"
   },
-  "homepage": "https://github.com/HanaAyane/dsh-reasoning-effort#readme",
+  "homepage": "https://github.com/LunFengChen/dsh-reasoning-effort",
   "bugs": {
-    "url": "https://github.com/HanaAyane/dsh-reasoning-effort/issues"
+    "url": "https://github.com/LunFengChen/dsh-reasoning-effort/issues"
   },
   "engines": {
     "node": ">=22.19"
@@ -113,5 +113,8 @@
     "@deepseek-ai/dsh-client-ui-slots": "^0.1.0-rc.6",
     "@deepseek-ai/dsh-api-remotes": "^0.1.0-rc.6"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
 }
